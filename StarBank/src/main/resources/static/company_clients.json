@@ -1,0 +1,31 @@
+[{
+    "contactNames": "Empresa Prueba 1",
+    "contactOpcupation": "Administrator",
+    "contactPhone": "55555",
+    "identificationType": "CC",
+    "identification": "999111",
+    "nit": "11122233-1",
+    "companyName": "Empresa 1",
+    "companySector": "Condominiums",
+    "companyAddress": "CL 4 5 6"
+}, {
+    "contactNames": "Empresa Prueba 2",
+    "contactOpcupation": "Accounter",
+    "contactPhone": "55556",
+    "identificationType": "CE",
+    "identification": "999112",
+    "nit": "11122233-2",
+    "companyName": "Empresa 2",
+    "companySector": "Real State",
+    "companyAddress": "CL 4 5 6"
+}, {
+    "contactNames": "Empresa Prueba 3",
+    "contactOpcupation": "Architect",
+    "contactPhone": "55557",
+    "identificationType": "CC",
+    "identification": "999113",
+    "nit": "11122233-3",
+    "companyName": "Empresa 3",
+    "companySector": "Buildings",
+    "companyAddress": "CL 4 5 6"
+}]
