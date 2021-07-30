@@ -1,52 +1,56 @@
 * {
-	font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 body {
-    background-image: url("fondo-fiveamstories.jpg"); /*Image by: @fiveamstories*/
+    background-image: url("/assets/fondo-fiveamstories.jpg");
+    /*Image by: @fiveamstories*/
     background-position: center;
     background-size: cover;
 }
 
-header{
+header {
     text-align: center;
     padding: 10px 10px 10px 10px;
     margin-bottom: 20px;
 }
 
-#inscripcion{
+#inscripcion {
     text-align: center;
     padding-top: 25px;
     margin: 0 100px 0;
 }
 
-#TipoCliente{
+#TipoCliente {
     margin-left: 175px;
     margin-top: 5%;
 
 }
 
-#Empresa{
+#Empresa {
     margin-left: 80px;
 }
 
-#PersonaNatural, #Empresa{
-    float: left; 
+#PersonaNatural,
+#Empresa {
+    float: left;
     padding: 0px 20px 0;
 }
 
-#PersonaNatural, #Empresa, #inscripcion{
-    background-color: rgba(255, 255, 255, 0.5);  
+#PersonaNatural,
+#Empresa,
+#inscripcion {
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10%;
 }
 
-#boton{
+#boton {
     clear: both;
     padding-top: 35px;
     padding-bottom: 25px;
 }
 
-button{
+button {
     height: 30px;
     width: 120px;
     font-size: 18px;
@@ -55,7 +59,7 @@ button{
     border-color: dimgray;
 }
 
-#logo{
+#logo {
     width: 170px;
     height: 110px;
     padding-right: 10px;
