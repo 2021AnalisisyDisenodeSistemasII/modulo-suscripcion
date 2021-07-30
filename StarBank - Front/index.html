@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>StarBank - Inscripción</title>
+	<!--<script type="text/javascript" src="/assets/js/clients-submit.js"></script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!--<link rel="stylesheet" type="text/css" href="/assets/css/style.css">-->
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="icon.png" type="image" sizes="16x16">
+</head>
+
+<body>
+	<header>
+		<img src="logo.png" id="logo">
+	</header>
+
+	<div id="inscripcion">
+		<h2>Inscripción de usuarios:</h2><br>
+		<h3>Datos del cliente:</h3>
+		<h4>Tipo de documento: <br><input type="text" name="tipoId" id="tipoId"></h4>
+		<h4>Documento identidad: <br><input type="text" name="nroId" id="nroId"></h4>
+		<h4>Nombre completo: <br><input type="text" name="nombre" id="nombre"></h4>
+		<h4>Ocupación: <br><input type="text" name="ocupacion" id="ocupacion"></h4>
+		<div id="TipoCliente">
+			<div id="PersonaNatural">
+				<h3>Si el cliente es tipo Persona Natural<br> llene los siguientes datos:</h3>
+				<h4>Dirección de residencia: <br><input type="text" name="direccion" id="direccion"></h4>
+			</div>
+
+			<div id="Empresa">
+				<h3>Si el cliente es tipo Empresa <br>llene los siguientes datos:</h3>
+				<h4>NIT: <br><input type="text" name="nit" id="nit"></h4>
+				<h4>Nombre de la empresa: <br><input type="text" name="nombreEmpresa" id="nombreEmpresa"></h4>
+				<h4>Sector comercial: <br><input type="text" name="sectorComercial" id="sectorComercial"></h4>
+				<h4>Dirección de empresa: <br><input type="text" name="direccionEmpresa" id="direccionEmpresa"></h4>
+			</div>
+		</div>
+		<div  id="boton">
+			<button type="button" onclick="saveClient();">Inscribir</button>
+		</div>
+
+	</div>
+</body>
+
+</html>
