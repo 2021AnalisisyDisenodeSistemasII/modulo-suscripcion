@@ -135,7 +135,7 @@ nbdist/
 .ionide
 
 ## JSON
-**/natural_clients.json
-**/company_clients.json
+StarBank/src/main/resources/static//natural_clients.json
+StarBank/src/main/resources/static//company_clients.json
 
 # End of https://www.toptal.com/developers/gitignore/api/netbeans,intellij,visualstudiocode
