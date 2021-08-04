@@ -2,18 +2,15 @@ package com.povsal.starbank.utils;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
+import com.google.gson.*;
+import com.google.gson.reflect.TypeToken;
 import org.springframework.stereotype.Service;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
 import com.povsal.starbank.model.client.Client;
 import com.povsal.starbank.model.client.CompanyClient;
 import com.povsal.starbank.model.client.NaturalClient;
@@ -22,67 +19,60 @@ import com.povsal.starbank.utils.converter.IJSONConverter;
 @Service
 public class JSONConverter implements IJSONConverter {
 
-	private final static String DB_PATH_NATURAL = "src\\main\\resources\\static\\natural_clients.json";
-	private final static String DB_PATH_COMPANY = "src\\main\\resources\\static\\company_clients.json";
-	private static FileWriter file;
+	private static final String DB_PATH_NATURAL = "src\\main\\resources\\static\\natural_clients.json";
+	private static final String DB_PATH_COMPANY = "src\\main\\resources\\static\\company_clients.json";
 	
-	public List<Client> getAllClients() throws IOException {
-		List<Client> clients = new ArrayList<Client>();
-		clients.addAll(convertNaturalClientFromJSON());
-		clients.addAll(convertCompanyClientFromJSON());
+	public Map<String, Client> getAllClients() throws IOException {
+		Map<String, Client> clients = new HashMap<>();
+		clients.putAll(convertClientsFromJSON(true, null));
+		clients.putAll(convertClientsFromJSON(false, null));
 		return clients;
 	}
 	
 	@Override
 	public void saveInJSONDb(Client client) throws IOException {
-		Gson gson = new Gson();
-		try {
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		String filePath = "";
+		if(client instanceof NaturalClient) {
+			filePath = DB_PATH_NATURAL;
+		} else if(client instanceof CompanyClient) {
+			filePath = DB_PATH_COMPANY;
+		}
+		String fileContent = new String(Files.readAllBytes(Paths.get(filePath)));
+		try(FileWriter file = new FileWriter(filePath)) {
 			if(client instanceof NaturalClient) {
-				List<NaturalClient> clients = convertNaturalClientFromJSON();
-				clients.add((NaturalClient) client);
-				NaturalClient[] p = clients.toArray(new NaturalClient[clients.size()]);
-				file = new FileWriter(DB_PATH_NATURAL);
-				gson.toJson(p, file);
+				Map<String, Client> clientsMap = convertClientsFromJSON(true, fileContent);
+				if(clientsMap == null) {
+					throw new IOException("Error parsing file");
+				}
+				clientsMap.put(client.getIdentification(), client);
+				gson.toJson(clientsMap, file);
 			} else if(client instanceof CompanyClient) {
-				List<CompanyClient> clients = convertCompanyClientFromJSON();
-				clients.add((CompanyClient) client);
-				CompanyClient[] p = clients.toArray(new CompanyClient[clients.size()]);
-				file = new FileWriter(DB_PATH_COMPANY);
-				gson.toJson(p, file);
+				Map<String, Client> clientsMap = convertClientsFromJSON(false, fileContent);
+				if(clientsMap == null) {
+					throw new IOException("Error parsing file");
+				}
+				clientsMap.put(((CompanyClient) client).getNit(), client);
+				gson.toJson(clientsMap, file);
 			}
-		} finally {
-			file.flush();
-            file.close();
+			System.out.println(fileContent);
+		} catch (IOException e) {
+			System.err.println("Error parsing file");
 		}
 	}
 
-	@Override
-	public List<NaturalClient> convertNaturalClientFromJSON() throws IOException {
-		String file = new String(Files.readAllBytes(Paths.get(DB_PATH_NATURAL)));
-        JsonArray persons = null;
-        JsonElement parsedElement = JsonParser.parseString(file);
-        if(parsedElement == null) {
-        	return new ArrayList<NaturalClient>();
-        }
-        persons = (JsonArray) parsedElement.getAsJsonArray();
-        Gson gson = new Gson();
-		NaturalClient[] p = gson.fromJson(persons, NaturalClient[].class);
-		List<NaturalClient> p2 = new ArrayList<NaturalClient>(Arrays.asList(p));
-		return p2;
-	}
+	private Map<String, Client> convertClientsFromJSON(boolean natural, String fileContent) throws IOException {
+		if(fileContent == null || fileContent.equalsIgnoreCase("")) {
+			fileContent = new String(Files.readAllBytes(Paths.get(natural ? DB_PATH_NATURAL : DB_PATH_COMPANY)));
+		}
+		Gson gson = new Gson();
+		Type typeOfMap;
+		if(natural) {
+			typeOfMap = new TypeToken<Map<String, NaturalClient>>() { }.getType();
+		} else {
+			typeOfMap = new TypeToken<Map<String, CompanyClient>>() { }.getType();
+		}
 
-	@Override
-	public List<CompanyClient> convertCompanyClientFromJSON() throws IOException {
-		String file = new String(Files.readAllBytes(Paths.get(DB_PATH_COMPANY)));
-        JsonArray persons = null;
-        JsonElement parsedElement = JsonParser.parseString(file);
-        if(parsedElement == null) {
-        	return new ArrayList<CompanyClient>();
-        }
-        persons = (JsonArray) parsedElement.getAsJsonArray();
-        Gson gson = new Gson();
-        CompanyClient[] p = gson.fromJson(persons, CompanyClient[].class);
-		List<CompanyClient> p2 = new ArrayList<CompanyClient>(Arrays.asList(p));
-		return p2;
+		return gson.fromJson(fileContent, typeOfMap);
 	}
 }

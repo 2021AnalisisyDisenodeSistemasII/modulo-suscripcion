@@ -1,1 +1,248 @@
-[{"address":"KR 1 2 3","identificationType":"CC","identification":"10001"},{"address":"KR 1 2 4","identificationType":"CC","identification":"10201"},{"address":"KR 1 2 5","identificationType":"TI","identification":"10301"},{"address":"CR 1 2 4","contactNumber":"12345","contactName":"Diego Poveda 2","contactOcupation":"Student","identificationType":"CC","identification":"1"},{"address":"CR 1 2 7","contactNumber":"111122223","contactName":"Diego Prueba","contactOcupation":"Desarrollador","identificationType":"CC","identification":"1212122"}]
+{
+  "25033578": {
+    "client_address": "339 Lauren Avenue Williamsonborough, OR 84368",
+    "phone": "3200722812",
+    "client_name": "Curtis Archer",
+    "client_occupation": "estudiante"
+  },
+  "25187506": {
+    "client_address": "777 Brown Avenue Hamiltonmouth, IL 89859",
+    "phone": "3126937974",
+    "client_name": "Christopher Hunt",
+    "client_occupation": "esclavo"
+  },
+  "11485730": {
+    "client_address": "685 Daniels Unions Apt. 785 Lake James, VA 93950",
+    "phone": "3018746523",
+    "client_name": "Bailey Bryant",
+    "client_occupation": "estudiante"
+  },
+  "52306746": {
+    "client_address": "71128 Edwards Harbors Apt. 938 North Carltown, WY 74813",
+    "phone": "3117050215",
+    "client_name": "Richard Harrison",
+    "client_occupation": "animador"
+  },
+  "15748229": {
+    "client_address": "4576 Heather Summit Apt. 871 East Patriciaburgh, LA 11873",
+    "phone": "3127964899",
+    "client_name": "Daniel Gonzalez",
+    "client_occupation": "estudiante"
+  },
+  "41295069": {
+    "client_address": "038 Williams Bridge South Candiceshire, DE 00616",
+    "phone": "3113004408",
+    "client_name": "Kristen Wilson",
+    "client_occupation": "servidor publico"
+  },
+  "37524008": {
+    "client_address": "9867 Allen Bypass Marilynland, OH 04494",
+    "phone": "3075532873",
+    "client_name": "Brian Jones",
+    "client_occupation": "musico"
+  },
+  "60531259": {
+    "client_address": "736 Thomas Forge Apt. 675 East Jack, MO 55794",
+    "phone": "3119077861",
+    "client_name": "Stephanie Moore",
+    "client_occupation": "independiente"
+  },
+  "71345367": {
+    "client_address": "167 Johnson Heights West Katherinemouth, MS 53449",
+    "phone": "3119555243",
+    "client_name": "Kenneth Campbell",
+    "client_occupation": "militar"
+  },
+  "37170815": {
+    "client_address": "699 Smith Row Jennaburgh, MN 25647",
+    "phone": "3018340543",
+    "client_name": "Javier Herring",
+    "client_occupation": "esclavo"
+  },
+  "24900793": {
+    "client_address": "19514 Bentley Ford Barnestown, FL 71372",
+    "phone": "3105458245",
+    "client_name": "Glenn Johnson",
+    "client_occupation": "servidor publico"
+  },
+  "48650051": {
+    "client_address": "USCGC Clark FPO AA 80124",
+    "phone": "3001120718",
+    "client_name": "Randy Nelson",
+    "client_occupation": "supervisor"
+  },
+  "56056285": {
+    "client_address": "476 Kristin Trail Apt. 294 New Jessica, NH 77080",
+    "phone": "3202478195",
+    "client_name": "Kim Lozano",
+    "client_occupation": "supervisor"
+  },
+  "48819975": {
+    "client_address": "5216 Kelly Loop Suite 108 Williamsonchester, NJ 16150",
+    "phone": "3002056561",
+    "client_name": "Robin Wood",
+    "client_occupation": "animador"
+  },
+  "47591522": {
+    "client_address": "346 Price Springs Apt. 914 South Thomasmouth, LA 59928",
+    "phone": "3159181405",
+    "client_name": "Cynthia Lee",
+    "client_occupation": "animador"
+  },
+  "43618174": {
+    "client_address": "97132 Joshua Drives East Nicole, NV 22898",
+    "phone": "3071333019",
+    "client_name": "Carl Horn",
+    "client_occupation": "albañil"
+  },
+  "39525805": {
+    "client_address": "63163 Olson Groves Suite 533 Emilyburgh, OK 75584",
+    "phone": "3143739904",
+    "client_name": "Connor Edwards",
+    "client_occupation": "actor"
+  },
+  "33527982": {
+    "client_address": "78634 Natalie Alley Suite 442 Lake Jonathanton, RI 27379",
+    "phone": "3035981714",
+    "client_name": "Thomas Moore",
+    "client_occupation": "actor"
+  },
+  "50719469": {
+    "client_address": "837 Richard Village Apt. 771 Port Jamiehaven, AK 08548",
+    "phone": "3111317540",
+    "client_name": "Cynthia Gay",
+    "client_occupation": "servidor publico"
+  },
+  "49002147": {
+    "client_address": "PSC 9567, Box 7536 APO AA 73655",
+    "phone": "3089648721",
+    "client_name": "Robert Bell",
+    "client_occupation": "cajero"
+  },
+  "52605406": {
+    "client_address": "30958 Michael Lake Apt. 985 Lake Sheena, NV 64791",
+    "phone": "3074734362",
+    "client_name": "Jill Carr",
+    "client_occupation": "director"
+  },
+  "73188956": {
+    "client_address": "225 Darren Spurs North Leah, NC 64226",
+    "phone": "3144694583",
+    "client_name": "Michael Smith",
+    "client_occupation": "militar"
+  },
+  "88919645": {
+    "client_address": "47305 Hardin Skyway Suite 260 North Joannaton, WV 85637",
+    "phone": "3000697376",
+    "client_name": "Sharon Lowery",
+    "client_occupation": "supervisor"
+  },
+  "10249722": {
+    "client_address": "9072 Angela Crossing Apt. 075 Robertton, HI 16958",
+    "phone": "3149995452",
+    "client_name": "Matthew Morales",
+    "client_occupation": "esclavo"
+  },
+  "21845197": {
+    "client_address": "2649 Dominguez View Bruceborough, LA 43640",
+    "phone": "3095807168",
+    "client_name": "Kristie Cooper",
+    "client_occupation": "estudiante"
+  },
+  "85301551": {
+    "client_address": "10295 Edwards Road Christophershire, ME 30846",
+    "phone": "3105876562",
+    "client_name": "Laura Mendoza DDS",
+    "client_occupation": "cajero"
+  },
+  "28032072": {
+    "client_address": "497 Moore Views Valdezmouth, AL 41779",
+    "phone": "3117537934",
+    "client_name": "Ryan Lloyd",
+    "client_occupation": "mascota"
+  },
+  "98370920": {
+    "client_address": "94447 Anderson Run Kimberlyburgh, SC 82536",
+    "phone": "3031862342",
+    "client_name": "Renee Jones",
+    "client_occupation": "director"
+  },
+  "82005359": {
+    "client_address": "765 Sosa Squares Suite 170 South Tracybury, IL 74328",
+    "phone": "3136408460",
+    "client_name": "Eileen Ibarra",
+    "client_occupation": "estudiante"
+  },
+  "61249466": {
+    "client_address": "79724 Benjamin Valleys Suite 558 Morrisside, TX 54131",
+    "phone": "3182638425",
+    "client_name": "Gregory Larson",
+    "client_occupation": "militar"
+  },
+  "86874960": {
+    "client_address": "265 Ramos Fall Kimberlyfort, MN 86816",
+    "phone": "3051269530",
+    "client_name": "Jennifer Howard",
+    "client_occupation": "albañil"
+  },
+  "19351004": {
+    "client_address": "78878 Miller Camp Apt. 038 South Jade, LA 15899",
+    "phone": "3039829044",
+    "client_name": "Kayla Garcia",
+    "client_occupation": "animador"
+  },
+  "15615776": {
+    "client_address": "0590 Edwards Spring Rogerstad, SC 45610",
+    "phone": "3116626239",
+    "client_name": "Jennifer Walker",
+    "client_occupation": "militar"
+  },
+  "91710296": {
+    "client_address": "32882 Abigail Club Danielsfort, ID 74016",
+    "phone": "3147944894",
+    "client_name": "Nancy Francis",
+    "client_occupation": "secretario"
+  },
+  "28314300": {
+    "client_address": "414 Haynes Plaza Suite 011 Georgeberg, AZ 50583",
+    "phone": "3125323257",
+    "client_name": "Brian Walker",
+    "client_occupation": "servidor publico"
+  },
+  "14007925": {
+    "client_address": "275 Murphy Throughway Wheelerchester, GA 41080",
+    "phone": "3038100581",
+    "client_name": "Bryan Thompson",
+    "client_occupation": "musico"
+  },
+  "17216329": {
+    "client_address": "738 Gibson Cove Apt. 530 Morrowstad, RI 71543",
+    "phone": "3204859607",
+    "client_name": "William Davis",
+    "client_occupation": "albañil"
+  },
+  "11259159": {
+    "client_address": "859 Ramirez River New Caitlin, CO 24262",
+    "phone": "3072342233",
+    "client_name": "Julie Evans",
+    "client_occupation": "limpiador"
+  },
+  "97205187": {
+    "client_address": "2826 Parker Extension Meganmouth, NM 95618",
+    "phone": "3008140859",
+    "client_name": "Chad Haney",
+    "client_occupation": "limpiador"
+  },
+  "13762575": {
+    "client_address": "651 Lee Groves Apt. 520 Lake Rick, MA 39154",
+    "phone": "3073124089",
+    "client_name": "Gina Carter",
+    "client_occupation": "limpiador"
+  },
+  "12312312": {
+    "client_address": "as cer ca2",
+    "client_name": "asd ad asd ",
+    "client_occupation": "asdasd ",
+    "client_id": "12312312"
+  }
+}

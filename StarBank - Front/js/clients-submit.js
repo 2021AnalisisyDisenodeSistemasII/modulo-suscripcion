@@ -3,22 +3,22 @@ function saveClient() {
 	var identificationType = $('#tipoId').val();
 	var identification = $('#nroId').val();
 	var contactName = $('#nombre').val();
-	var contactOcupation = $('#ocupacion').val();
+	var contactOccupation = $('#ocupacion').val();
 	var contactNumber = $('#telefono').val();
 	var address = $('#direccion').val();
 	var nit = $('#nit').val();
 	var companyName = $('#nombreEmpresa').val();
 	var companyAddress = $('#direccionEmpresa').val();
 	var companySector = $('#sectorComercial').val();
-	if (address && nit) {
+	/*if (address && nit) {
 		alert('Error, ingrese solo la información necesaria. Un cliente no puede ser natural y empresa al mismo tiempo');
 		return;
-	}
+	}*/
 	var data = {
 		identificationType: identificationType,
 		identification: identification,
 		contactName: contactName,
-		contactOcupation: contactOcupation,
+		contactOccupation: contactOccupation,
 		contactNumber: contactNumber
 	}
 	if (address) {
@@ -30,13 +30,13 @@ function saveClient() {
 		data['companyAddress'] = companyAddress;
 		data['companySector'] = companySector;
 	}
-	postClient(clientType, data);
+	createClient(clientType, data);
 }
 
 function createClient(clientType, data) {
 	$.ajax({
 		type: 'POST',
-		url: 'http://localhost:8080/persons/' + clientType,
+		url: `http://localhost:8080/persons/${clientType}`,
 		data: data,
 		success: function (results) {
 			if (results) {
