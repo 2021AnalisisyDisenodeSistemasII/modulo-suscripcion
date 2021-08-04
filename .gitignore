@@ -134,4 +134,8 @@ nbdist/
 .history
 .ionide
 
+## JSON
+**/natural_clients.json
+**/company_clients.json
+
 # End of https://www.toptal.com/developers/gitignore/api/netbeans,intellij,visualstudiocode
