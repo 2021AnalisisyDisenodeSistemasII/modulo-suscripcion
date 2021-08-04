@@ -26,6 +26,7 @@ function saveClient() {
 		data['address'] = address;
 	} else if (nit) {
 		clientType = 'company';
+		data['nit'] = nit;
 		data['companyName'] = companyName;
 		data['companyAddress'] = companyAddress;
 		data['companySector'] = companySector;

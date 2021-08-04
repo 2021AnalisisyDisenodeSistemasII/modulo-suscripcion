@@ -55,7 +55,6 @@ public class JSONConverter implements IJSONConverter {
 				clientsMap.put(((CompanyClient) client).getNit(), client);
 				gson.toJson(clientsMap, file);
 			}
-			System.out.println(fileContent);
 		} catch (IOException e) {
 			System.err.println("Error parsing file");
 		}

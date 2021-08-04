@@ -37,7 +37,7 @@ public class ClientService implements IClientService {
 			if(person instanceof NaturalClient) {
 				if(document.equalsIgnoreCase(person.getIdentification())) return true;
 			} else if (person instanceof CompanyClient) {
-				if(((CompanyClient) clients.get(document)).getNit().equalsIgnoreCase(((CompanyClient) person).getNit())) return true;
+				if(document.equalsIgnoreCase(((CompanyClient) person).getNit())) return true;
 			}
 		}
 		return false;
