@@ -41,13 +41,13 @@ function createClient(clientType, data) {
 		data: data,
 		success: function (results) {
 			if (results) {
-				alert('La persona ha sido agregada');
+				Swal.fire('Éxito', 'La persona ha sido agregada', 'success')
 			}
 			cleanFields();
 		},
 		dataType: 'json',
 		error: function (xhr) {
-			console.log(xhr);
+			Swal.fire('Error', 'Ha ocurrido un problema', 'error')
 		}
 	});
 }
