@@ -63,4 +63,9 @@ public class ClientController {
 		}
 		return new ResponseEntity<>(client, HttpStatus.CREATED);
 	}
+
+	@GetMapping("/all/string")
+	public ResponseEntity<String> getAllClientsAsString() throws IOException {
+		return new ResponseEntity<>(clientService.getAllClientsAsString(), HttpStatus.OK);
+	}
 }

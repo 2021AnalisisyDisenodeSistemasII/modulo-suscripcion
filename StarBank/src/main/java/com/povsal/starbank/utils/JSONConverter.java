@@ -74,4 +74,12 @@ public class JSONConverter implements IJSONConverter {
 
 		return gson.fromJson(fileContent, typeOfMap);
 	}
+
+	public String getAllClientsAsString() throws IOException {
+		Map<String, Client> clients = new HashMap<>();
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		clients.putAll(convertClientsFromJSON(true, null));
+		clients.putAll(convertClientsFromJSON(false, null));
+		return gson.toJson(clients);
+	}
 }

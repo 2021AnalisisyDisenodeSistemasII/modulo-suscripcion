@@ -10,10 +10,10 @@ function saveClient() {
 	var companyName = $('#nombreEmpresa').val();
 	var companyAddress = $('#direccionEmpresa').val();
 	var companySector = $('#sectorComercial').val();
-	/*if (address && nit) {
-		alert('Error, ingrese solo la información necesaria. Un cliente no puede ser natural y empresa al mismo tiempo');
+	if (address && nit) {
+		Swal.fire('Error', 'Un cliente no puede ser natural y empresa al mismo tiempo', 'error')
 		return;
-	}*/
+	}
 	var data = {
 		identificationType: identificationType,
 		identification: identification,

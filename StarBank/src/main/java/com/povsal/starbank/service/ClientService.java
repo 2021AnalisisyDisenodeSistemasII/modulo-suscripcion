@@ -42,4 +42,8 @@ public class ClientService implements IClientService {
 		}
 		return false;
 	}
+
+    public String getAllClientsAsString() throws IOException {
+		return converter.getAllClientsAsString();
+    }
 }

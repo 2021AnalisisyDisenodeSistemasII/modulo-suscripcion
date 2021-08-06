@@ -21,6 +21,8 @@ header {
 }
 
 #inscripcion {
+    position: relative;
+    top: -30px;
     text-align: center;
     padding-top: 25px;
     margin: 0 100px 0;
