@@ -42,7 +42,7 @@ public class ClientController {
 		try {
 			client = clientService.saveClient(body);
 			if(client == null) {
-				return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+				return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
 			}
 		} catch(IOException e) {
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
@@ -56,7 +56,7 @@ public class ClientController {
 		try {
 			client = clientService.saveClient(body);
 			if(client == null) {
-				return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+				return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
 			}
 		} catch(IOException e) {
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);

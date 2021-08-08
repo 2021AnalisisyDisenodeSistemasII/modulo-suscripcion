@@ -10,7 +10,15 @@ function saveClient() {
 	var companyName = $('#nombreEmpresa').val();
 	var companyAddress = $('#direccionEmpresa').val();
 	var companySector = $('#sectorComercial').val();
-	if (address && nit) {
+	if (!identificationType || !identification || !contactName || !contactOccupation || !contactNumber) {
+		Swal.fire('Error', 'Ingrese los campos necesarios', 'error')
+		return;
+	}
+	if (!address && (!nit || !companyName || !companyAddress || !companySector)) {
+		Swal.fire('Error', 'Ingrese los campos necesarios', 'error')
+		return;
+	}
+	if (address && (nit || companyName || companyAddress || companySector)) {
 		Swal.fire('Error', 'Un cliente no puede ser natural y empresa al mismo tiempo', 'error')
 		return;
 	}
@@ -47,7 +55,15 @@ function createClient(clientType, data) {
 		},
 		dataType: 'json',
 		error: function (xhr) {
-			Swal.fire('Error', 'Ha ocurrido un problema', 'error')
+			if (xhr.status == 400) {
+				if ($('#nit').val() === '') {
+					Swal.fire('Error', 'Ya existe un cliente registrado con el documento ' + $('#nroId').val(), 'error')
+				} else {
+					Swal.fire('Error', 'Ya existe un cliente registrado con el NIT ' + $('#nit').val(), 'error')
+				}
+			} else {
+				Swal.fire('Error', 'Ha ocurrido un problema', 'error')
+			}
 		}
 	});
 }
