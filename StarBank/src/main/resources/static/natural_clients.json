@@ -250,5 +250,12 @@
     "client_name": "Dasdasedas",
     "client_occupation": "weazx wedas",
     "client_id": "99099911"
+  },
+  "12345666": {
+    "client_address": "Cr 1 24 5 1",
+    "phone": "11111122221",
+    "client_name": "Prueba Usuario",
+    "client_occupation": "Estudiante",
+    "client_id": "12345666"
   }
 }
