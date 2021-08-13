@@ -5,8 +5,7 @@
     "cluster": "internet",
     "phone": "3181608631",
     "client_name": "Joshua Powell",
-    "client_occupation": "cajero",
-    "client_id": "35559562"
+    "client_occupation": "cajero"
   },
   "96974161-9": {
     "company_name": "Bares Chaney",
@@ -14,8 +13,7 @@
     "cluster": "servicio al cliente",
     "phone": "3094263812",
     "client_name": "Margaret Esparza",
-    "client_occupation": "musico",
-    "client_id": "96974161"
+    "client_occupation": "musico"
   },
   "24395948-2": {
     "company_name": "Algodón de azúcar Gonzalez",
@@ -23,8 +21,7 @@
     "cluster": "internet",
     "phone": "3160503149",
     "client_name": "Tracy Mason",
-    "client_occupation": "actor",
-    "client_id": "24395948"
+    "client_occupation": "actor"
   },
   "80978607-8": {
     "company_name": "Cupcake Irwin",
@@ -32,8 +29,7 @@
     "cluster": "cafeteria",
     "phone": "3201262258",
     "client_name": "Timothy Alvarado",
-    "client_occupation": "esclavo",
-    "client_id": "80978607"
+    "client_occupation": "esclavo"
   },
   "44745070-0": {
     "company_name": "Pastelitos Hebert",
@@ -41,8 +37,7 @@
     "cluster": "transporte de alimentos",
     "phone": "3127915692",
     "client_name": "David Moss",
-    "client_occupation": "mascota",
-    "client_id": "44745070"
+    "client_occupation": "mascota"
   },
   "39861943-0": {
     "company_name": "Vino Acosta",
@@ -50,8 +45,7 @@
     "cluster": "panaderia",
     "phone": "3086720245",
     "client_name": "Jennifer Finley",
-    "client_occupation": "director",
-    "client_id": "39861943"
+    "client_occupation": "director"
   },
   "10931278-9": {
     "company_name": "Pan Holmes",
@@ -59,8 +53,7 @@
     "cluster": "internet",
     "phone": "3064838807",
     "client_name": "Dr. Kristin Tran",
-    "client_occupation": "desempleado",
-    "client_id": "10931278"
+    "client_occupation": "desempleado"
   },
   "95317002-0": {
     "company_name": "Chocolate Hunt",
@@ -68,8 +61,7 @@
     "cluster": "transporte de alimentos",
     "phone": "3066330813",
     "client_name": "Amy Rubio",
-    "client_occupation": "albañil",
-    "client_id": "95317002"
+    "client_occupation": "albañil"
   },
   "44369549-1": {
     "company_name": "Aceite Rogers",
@@ -77,8 +69,7 @@
     "cluster": "venta de comestibles",
     "phone": "3178539626",
     "client_name": "Jeffery Lutz",
-    "client_occupation": "actor",
-    "client_id": "44369549"
+    "client_occupation": "actor"
   },
   "62984534-2": {
     "company_name": "Postres Newton",
@@ -86,8 +77,7 @@
     "cluster": "venta de comestibles",
     "phone": "3034381459",
     "client_name": "Michael Rodgers",
-    "client_occupation": "conductor",
-    "client_id": "62984534"
+    "client_occupation": "conductor"
   },
   "35349353-2": {
     "company_name": "Sándwiches Rice",
@@ -95,8 +85,7 @@
     "cluster": "pasteleria",
     "phone": "3068461927",
     "client_name": "Cindy Hill",
-    "client_occupation": "director",
-    "client_id": "35349353"
+    "client_occupation": "director"
   },
   "75709781-4": {
     "company_name": "Algodón de azúcar Carpenter",
@@ -104,8 +93,7 @@
     "cluster": "venta de comestibles",
     "phone": "3153834521",
     "client_name": "Ruben Wallace",
-    "client_occupation": "profesor",
-    "client_id": "75709781"
+    "client_occupation": "profesor"
   },
   "78018577-2": {
     "company_name": "Cerveza Hall",
@@ -113,8 +101,7 @@
     "cluster": "cafeteria",
     "phone": "3076599574",
     "client_name": "Diane Carroll",
-    "client_occupation": "independiente",
-    "client_id": "78018577"
+    "client_occupation": "independiente"
   },
   "76037623-8": {
     "company_name": "Aceite Miller",
@@ -122,8 +109,7 @@
     "cluster": "servicio al cliente",
     "phone": "3117733917",
     "client_name": "Jacob Miller",
-    "client_occupation": "desempleado",
-    "client_id": "76037623"
+    "client_occupation": "desempleado"
   },
   "21930880-0": {
     "company_name": "Granizados Marsh",
@@ -131,8 +117,7 @@
     "cluster": "panaderia",
     "phone": "3035134967",
     "client_name": "Amber Harris",
-    "client_occupation": "albañil",
-    "client_id": "21930880"
+    "client_occupation": "albañil"
   },
   "91060254-6": {
     "company_name": "Chocolate Harrington",
@@ -140,8 +125,7 @@
     "cluster": "servicio al cliente",
     "phone": "3158679048",
     "client_name": "Amanda Garcia",
-    "client_occupation": "secretario",
-    "client_id": "91060254"
+    "client_occupation": "secretario"
   },
   "70881331-0": {
     "company_name": "Pastelitos Snyder",
@@ -149,8 +133,7 @@
     "cluster": "transporte de alimentos",
     "phone": "3146685587",
     "client_name": "Laura Morrison",
-    "client_occupation": "director",
-    "client_id": "70881331"
+    "client_occupation": "director"
   },
   "94020180-5": {
     "company_name": "Cerveza Webb",
@@ -158,8 +141,7 @@
     "cluster": "pasteleria",
     "phone": "3156236556",
     "client_name": "Christopher Lynch",
-    "client_occupation": "servidor publico",
-    "client_id": "94020180"
+    "client_occupation": "servidor publico"
   },
   "98160535-9": {
     "company_name": "Chocolate Logan",
@@ -167,8 +149,7 @@
     "cluster": "cafeteria",
     "phone": "3005072378",
     "client_name": "Amanda Haynes",
-    "client_occupation": "supervisor",
-    "client_id": "98160535"
+    "client_occupation": "supervisor"
   },
   "34255597-6": {
     "company_name": "Batidos John",
@@ -176,8 +157,7 @@
     "cluster": "venta de comestibles",
     "phone": "3095125278",
     "client_name": "Brandon Jimenez",
-    "client_occupation": "animador",
-    "client_id": "34255597"
+    "client_occupation": "animador"
   },
   "92493215-0": {
     "company_name": "Bares Harris",
@@ -185,8 +165,7 @@
     "cluster": "venta de comestibles",
     "phone": "3172527144",
     "client_name": "Terry Ross",
-    "client_occupation": "cajero",
-    "client_id": "92493215"
+    "client_occupation": "cajero"
   },
   "47086191-9": {
     "company_name": "Caramelos Gibson",
@@ -194,8 +173,7 @@
     "cluster": "internet",
     "phone": "3056885395",
     "client_name": "Andrew Potts",
-    "client_occupation": "musico",
-    "client_id": "47086191"
+    "client_occupation": "musico"
   },
   "37107416-9": {
     "company_name": "Granizados Lang",
@@ -203,8 +181,7 @@
     "cluster": "servicio al cliente",
     "phone": "3035398702",
     "client_name": "Joshua Green",
-    "client_occupation": "animador",
-    "client_id": "37107416"
+    "client_occupation": "animador"
   },
   "50552297-8": {
     "company_name": "Postres Shaw",
@@ -212,8 +189,7 @@
     "cluster": "venta de comestibles",
     "phone": "3194086167",
     "client_name": "Ashley King",
-    "client_occupation": "estudiante",
-    "client_id": "50552297"
+    "client_occupation": "estudiante"
   },
   "68440440-7": {
     "company_name": "Pasteles Wright",
@@ -221,8 +197,7 @@
     "cluster": "internet",
     "phone": "3163480891",
     "client_name": "Patty Andrews",
-    "client_occupation": "actor",
-    "client_id": "68440440"
+    "client_occupation": "actor"
   },
   "41780706-5": {
     "company_name": "Chocolate Wells",
@@ -230,8 +205,7 @@
     "cluster": "transporte de alimentos",
     "phone": "3182941612",
     "client_name": "Juan Sutton",
-    "client_occupation": "programador",
-    "client_id": "41780706"
+    "client_occupation": "programador"
   },
   "71306773-2": {
     "company_name": "Pastelitos Jenkins",
@@ -239,8 +213,7 @@
     "cluster": "panaderia",
     "phone": "3031966412",
     "client_name": "Elizabeth Miller",
-    "client_occupation": "limpiador",
-    "client_id": "71306773"
+    "client_occupation": "limpiador"
   },
   "36391098-1": {
     "company_name": "Algodón de azúcar Salazar",
@@ -248,8 +221,7 @@
     "cluster": "servicio al cliente",
     "phone": "3114340993",
     "client_name": "Laura Wright",
-    "client_occupation": "programador",
-    "client_id": "36391098"
+    "client_occupation": "programador"
   },
   "37637779-2": {
     "company_name": "Helados Austin",
@@ -257,8 +229,7 @@
     "cluster": "pasteleria",
     "phone": "3038289570",
     "client_name": "Jade Kelley",
-    "client_occupation": "limpiador",
-    "client_id": "37637779"
+    "client_occupation": "limpiador"
   },
   "89623431-0": {
     "company_name": "Chocolate Zavala",
@@ -266,8 +237,7 @@
     "cluster": "servicio al cliente",
     "phone": "3197207227",
     "client_name": "Sherry Turner",
-    "client_occupation": "ingeniero",
-    "client_id": "89623431"
+    "client_occupation": "ingeniero"
   },
   "13728920-1": {
     "company_name": "Postres Stewart",
@@ -275,8 +245,7 @@
     "cluster": "internet",
     "phone": "3086979858",
     "client_name": "Jeremy Evans",
-    "client_occupation": "conductor",
-    "client_id": "13728920"
+    "client_occupation": "conductor"
   },
   "87035588-7": {
     "company_name": "Jugo Gonzalez",
@@ -284,8 +253,7 @@
     "cluster": "servicio al cliente",
     "phone": "3158150573",
     "client_name": "Kristi Mckinney",
-    "client_occupation": "militar",
-    "client_id": "87035588"
+    "client_occupation": "militar"
   },
   "48322820-1": {
     "company_name": "Bares Kim",
@@ -293,8 +261,7 @@
     "cluster": "cafeteria",
     "phone": "3020490356",
     "client_name": "Oscar Garner",
-    "client_occupation": "cajero",
-    "client_id": "48322820"
+    "client_occupation": "cajero"
   },
   "25199628-1": {
     "company_name": "Granizados Anderson",
@@ -302,8 +269,7 @@
     "cluster": "cafeteria",
     "phone": "3085270255",
     "client_name": "William Hill",
-    "client_occupation": "independiente",
-    "client_id": "25199628"
+    "client_occupation": "independiente"
   },
   "24147692-0": {
     "company_name": "Comida Kelly",
@@ -311,8 +277,7 @@
     "cluster": "venta de comestibles",
     "phone": "3082049133",
     "client_name": "Corey Garcia",
-    "client_occupation": "estudiante",
-    "client_id": "24147692"
+    "client_occupation": "estudiante"
   },
   "21812626-4": {
     "company_name": "Jugo Schneider",
@@ -320,8 +285,7 @@
     "cluster": "internet",
     "phone": "3195429900",
     "client_name": "Jane Lynch",
-    "client_occupation": "albañil",
-    "client_id": "21812626"
+    "client_occupation": "albañil"
   },
   "29705479-7": {
     "company_name": "Sándwiches Anderson",
@@ -329,8 +293,7 @@
     "cluster": "cafeteria",
     "phone": "3195892170",
     "client_name": "David Rosales",
-    "client_occupation": "secretario",
-    "client_id": "29705479"
+    "client_occupation": "secretario"
   },
   "12842731-3": {
     "company_name": "Miel King",
@@ -338,8 +301,7 @@
     "cluster": "transporte de alimentos",
     "phone": "3025161330",
     "client_name": "Brandon Ford",
-    "client_occupation": "actor",
-    "client_id": "12842731"
+    "client_occupation": "actor"
   },
   "36639888-9": {
     "company_name": "Postres Johnson",
@@ -347,8 +309,7 @@
     "cluster": "internet",
     "phone": "3056148854",
     "client_name": "Sarah Rasmussen",
-    "client_occupation": "musico",
-    "client_id": "36639888"
+    "client_occupation": "musico"
   },
   "13626209-4": {
     "company_name": "Pasteles Smith",
@@ -356,8 +317,7 @@
     "cluster": "cafeteria",
     "phone": "3201138823",
     "client_name": "Steven Wilson",
-    "client_occupation": "cajero",
-    "client_id": "13626209"
+    "client_occupation": "cajero"
   },
   "91372598-9": {
     "company_name": "Sándwiches Lee",
@@ -365,8 +325,7 @@
     "cluster": "internet",
     "phone": "3187394915",
     "client_name": "Lauren Hammond",
-    "client_occupation": "albañil",
-    "client_id": "91372598"
+    "client_occupation": "albañil"
   },
   "93586991-8": {
     "company_name": "Café Whitehead",
@@ -374,8 +333,7 @@
     "cluster": "transporte de alimentos",
     "phone": "3188366778",
     "client_name": "Evan Jackson",
-    "client_occupation": "secretario",
-    "client_id": "93586991"
+    "client_occupation": "secretario"
   },
   "44046418-8": {
     "company_name": "Pizza Ford",
@@ -383,8 +341,7 @@
     "cluster": "servicio al cliente",
     "phone": "3154159954",
     "client_name": "Penny Adams",
-    "client_occupation": "servidor publico",
-    "client_id": "44046418"
+    "client_occupation": "servidor publico"
   },
   "42953038-4": {
     "company_name": "Chocolate Beasley",
@@ -392,8 +349,7 @@
     "cluster": "cafeteria",
     "phone": "3107127628",
     "client_name": "Alyssa Anderson",
-    "client_occupation": "limpiador",
-    "client_id": "42953038"
+    "client_occupation": "limpiador"
   },
   "56756335-8": {
     "company_name": "Pastelitos Green",
@@ -401,8 +357,7 @@
     "cluster": "transporte de alimentos",
     "phone": "3196197771",
     "client_name": "Phillip Park",
-    "client_occupation": "supervisor",
-    "client_id": "56756335"
+    "client_occupation": "supervisor"
   },
   "39893331-1": {
     "company_name": "Pastelería Marquez",
@@ -410,8 +365,7 @@
     "cluster": "pasteleria",
     "phone": "3163527943",
     "client_name": "Jon Allen",
-    "client_occupation": "independiente",
-    "client_id": "39893331"
+    "client_occupation": "independiente"
   },
   "18404723-4": {
     "company_name": "Postres Stout",
@@ -419,8 +373,7 @@
     "cluster": "transporte de alimentos",
     "phone": "3153224629",
     "client_name": "Kim Norman",
-    "client_occupation": "supervisor",
-    "client_id": "18404723"
+    "client_occupation": "supervisor"
   },
   "48130640-7": {
     "company_name": "Cerveza Wood",
@@ -428,8 +381,7 @@
     "cluster": "cafeteria",
     "phone": "3058200837",
     "client_name": "Terry Green",
-    "client_occupation": "servidor publico",
-    "client_id": "48130640"
+    "client_occupation": "servidor publico"
   },
   "75368195-0": {
     "company_name": "Pastelitos Morgan",
@@ -437,8 +389,7 @@
     "cluster": "venta de comestibles",
     "phone": "3092890691",
     "client_name": "Matthew Marquez",
-    "client_occupation": "albañil",
-    "client_id": "75368195"
+    "client_occupation": "albañil"
   },
   "41970916-5": {
     "company_name": "Miel Peterson",
@@ -446,8 +397,7 @@
     "cluster": "transporte de alimentos",
     "phone": "3126771665",
     "client_name": "Margaret Webb",
-    "client_occupation": "ingeniero",
-    "client_id": "41970916"
+    "client_occupation": "ingeniero"
   },
   "78966418-0": {
     "company_name": "Sándwiches Castro",
@@ -455,8 +405,7 @@
     "cluster": "servicio al cliente",
     "phone": "3038718616",
     "client_name": "Mike Chase",
-    "client_occupation": "animador",
-    "client_id": "78966418"
+    "client_occupation": "animador"
   },
   "77358026-0": {
     "company_name": "Panadería Curry",
@@ -464,8 +413,7 @@
     "cluster": "cafeteria",
     "phone": "3137001228",
     "client_name": "David Johnson",
-    "client_occupation": "independiente",
-    "client_id": "77358026"
+    "client_occupation": "independiente"
   },
   "83683305-8": {
     "company_name": "Pastelería Ross",
@@ -473,8 +421,7 @@
     "cluster": "venta de comestibles",
     "phone": "3096897833",
     "client_name": "Sonya Gonzales",
-    "client_occupation": "conductor",
-    "client_id": "83683305"
+    "client_occupation": "conductor"
   },
   "20474747-3": {
     "company_name": "Galletas Weeks",
@@ -482,8 +429,7 @@
     "cluster": "venta de comestibles",
     "phone": "3144122956",
     "client_name": "Christopher Jensen",
-    "client_occupation": "ingeniero",
-    "client_id": "20474747"
+    "client_occupation": "ingeniero"
   },
   "62620440-9": {
     "company_name": "Comida Gonzalez",
@@ -491,8 +437,7 @@
     "cluster": "pasteleria",
     "phone": "3128164140",
     "client_name": "Joseph Greer",
-    "client_occupation": "esclavo",
-    "client_id": "62620440"
+    "client_occupation": "esclavo"
   },
   "60499258-2": {
     "company_name": "Cupcake Gray",
@@ -500,8 +445,7 @@
     "cluster": "venta de comestibles",
     "phone": "3030304594",
     "client_name": "Tracie Williams",
-    "client_occupation": "animador",
-    "client_id": "60499258"
+    "client_occupation": "animador"
   },
   "38237476-3": {
     "company_name": "Té e infusiones Harding",
@@ -509,8 +453,7 @@
     "cluster": "panaderia",
     "phone": "3205932987",
     "client_name": "Stephanie Hampton",
-    "client_occupation": "conductor",
-    "client_id": "38237476"
+    "client_occupation": "conductor"
   },
   "85616743-7": {
     "company_name": "Café Moore",
@@ -518,8 +461,7 @@
     "cluster": "transporte de alimentos",
     "phone": "3167634150",
     "client_name": "Michelle Giles",
-    "client_occupation": "animador",
-    "client_id": "85616743"
+    "client_occupation": "animador"
   },
   "33260689-0": {
     "company_name": "Pan Ramirez",
@@ -527,8 +469,7 @@
     "cluster": "panaderia",
     "phone": "3054328921",
     "client_name": "Jenna Landry",
-    "client_occupation": "profesor",
-    "client_id": "33260689"
+    "client_occupation": "profesor"
   },
   "88148511-0": {
     "company_name": "Postres Owens",
@@ -536,15 +477,55 @@
     "cluster": "panaderia",
     "phone": "3001219183",
     "client_name": "Bradley Silva",
-    "client_occupation": "esclavo",
-    "client_id": "88148511"
+    "client_occupation": "esclavo"
   },
   "99111-1": {
-    "nit": "99111-1",
     "company_name": "ASD SDA ",
     "client_address": " DASDW2 2 ",
     "client_name": "SDASDASD",
-    "client_occupation": "ASD ASD ",
-    "client_id": "13123221"
+    "client_occupation": "ASD ASD "
+  },
+  "998898989-1": {
+    "company_name": "Empresa",
+    "client_address": "CL 1 4 5 6",
+    "phone": "5555555555",
+    "client_name": "No se",
+    "client_occupation": "Tampoco se"
+  },
+  "44444666-1": {
+    "company_name": "ASDASD ",
+    "client_address": "ASD ASD ASD",
+    "phone": "123 123 123",
+    "client_name": "ASD",
+    "client_occupation": "ASD AD"
+  },
+  "666666-1": {
+    "company_name": "asdasd",
+    "client_address": "asdasd",
+    "phone": "asdasdasd",
+    "client_name": "asdas d",
+    "client_occupation": "asdasd"
+  },
+  "43434311-1": {
+    "company_name": "AASDASD",
+    "client_address": "ASDASDAD",
+    "phone": "123123123",
+    "client_name": "ASDASD ASD ASD",
+    "client_occupation": "ASDASDASD"
+  },
+  "555555001-1": {
+    "company_name": "ASD",
+    "client_address": "AD",
+    "phone": "ASDASD",
+    "client_name": "ASDASD",
+    "client_occupation": "ASDASD"
+  },
+  "444444419-6": {
+    "company_name": "ASD ASD ASD",
+    "client_address": "ASDASDASD",
+    "phone": "SDASDASD",
+    "client_name": "ASDASD ASD",
+    "client_occupation": "ASDASDA",
+    "client_id": "2323233256565"
   }
 }

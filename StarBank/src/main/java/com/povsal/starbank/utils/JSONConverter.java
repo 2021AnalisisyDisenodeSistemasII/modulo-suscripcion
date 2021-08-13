@@ -1,20 +1,21 @@
 package com.povsal.starbank.utils;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
+import com.povsal.starbank.model.client.Client;
+import com.povsal.starbank.model.client.CompanyClient;
+import com.povsal.starbank.model.client.NaturalClient;
+import com.povsal.starbank.utils.converter.IJSONConverter;
+import org.springframework.stereotype.Service;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.*;
-
-import com.google.gson.*;
-import com.google.gson.reflect.TypeToken;
-import org.springframework.stereotype.Service;
-
-import com.povsal.starbank.model.client.Client;
-import com.povsal.starbank.model.client.CompanyClient;
-import com.povsal.starbank.model.client.NaturalClient;
-import com.povsal.starbank.utils.converter.IJSONConverter;
+import java.util.HashMap;
+import java.util.Map;
 
 @Service
 public class JSONConverter implements IJSONConverter {
@@ -45,14 +46,18 @@ public class JSONConverter implements IJSONConverter {
 				if(clientsMap == null) {
 					throw new IOException("Error parsing file");
 				}
-				clientsMap.put(client.getIdentification(), client);
+				String identification = client.getIdentification();
+				client.setIdentification(null);
+				clientsMap.put(identification, client);
 				gson.toJson(clientsMap, file);
 			} else if(client instanceof CompanyClient) {
 				Map<String, Client> clientsMap = convertClientsFromJSON(false, fileContent);
 				if(clientsMap == null) {
 					throw new IOException("Error parsing file");
 				}
-				clientsMap.put(((CompanyClient) client).getNit(), client);
+				String nit = ((CompanyClient) client).getNit();
+				((CompanyClient) client).setNit(null);
+				clientsMap.put(nit, client);
 				gson.toJson(clientsMap, file);
 			}
 		} catch (IOException e) {
