@@ -6,8 +6,8 @@ import com.google.gson.reflect.TypeToken;
 import com.povsal.starbank.model.client.Client;
 import com.povsal.starbank.model.client.CompanyClient;
 import com.povsal.starbank.model.client.NaturalClient;
-import com.povsal.starbank.utils.converter.IJSONConverter;
-import org.springframework.stereotype.Service;
+import com.povsal.starbank.utils.converter.JSONConverter;
+import org.springframework.stereotype.Component;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -17,21 +17,21 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 
-@Service
-public class JSONConverter implements IJSONConverter {
+@Component
+public class ClientJSONConverter implements JSONConverter<String, Client> {
 
 	private static final String DB_PATH_NATURAL = "src\\main\\resources\\static\\natural_clients.json";
 	private static final String DB_PATH_COMPANY = "src\\main\\resources\\static\\company_clients.json";
-	
-	public Map<String, Client> getAllClients() throws IOException {
+
+	@Override
+	public Map<String, Client> getAll() throws IOException {
 		Map<String, Client> clients = new HashMap<>();
 		clients.putAll(convertClientsFromJSON(true, null));
 		clients.putAll(convertClientsFromJSON(false, null));
 		return clients;
 	}
-	
-	@Override
-	public void saveInJSONDb(Client client) throws IOException {
+
+	public void convert(Client client) throws IOException {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		String filePath = "";
 		if(client instanceof NaturalClient) {

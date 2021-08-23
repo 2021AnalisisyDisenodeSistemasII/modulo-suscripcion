@@ -1,9 +1,10 @@
-package com.povsal.starbank.service;
+package com.povsal.starbank.service.implementation;
 
 import com.povsal.starbank.model.client.Client;
 import com.povsal.starbank.model.client.CompanyClient;
 import com.povsal.starbank.model.client.NaturalClient;
-import com.povsal.starbank.utils.JSONConverter;
+import com.povsal.starbank.service.definition.IClientService;
+import com.povsal.starbank.utils.ClientJSONConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,22 +15,22 @@ import java.util.Map;
 public class ClientService implements IClientService {
 	
 	@Autowired
-	private JSONConverter converter;
+	private ClientJSONConverter converter;
 	
 	public Map<String, Client> getAllClients() throws IOException {
-		return converter.getAllClients();
+		return converter.getAll();
 	}
 
 	public Client saveClient(Client person) throws IOException {
 		if(clientIsAlreadyRegistered(person)) {
 			return null;
 		}
-		converter.saveInJSONDb(person);
+		converter.convert(person);
 		return person;
 	}
 
 	public boolean clientIsAlreadyRegistered(Client person) throws IOException {
-		Map<String, Client> clients = converter.getAllClients();
+		Map<String, Client> clients = converter.getAll();
 		if(clients == null) {
 			return false;
 		}
