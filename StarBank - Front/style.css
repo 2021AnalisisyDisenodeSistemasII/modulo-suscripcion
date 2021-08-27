@@ -58,6 +58,11 @@ header {
     padding-bottom: 25px;
 }
 
+#boton2{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
 button {
     height: 30px;
     width: 120px;
