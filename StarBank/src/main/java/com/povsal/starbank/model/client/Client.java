@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -22,4 +24,6 @@ public class Client {
 
 	@SerializedName(value = "client_id")
 	protected String identification;
+
+	protected List<String> accounts;
 }

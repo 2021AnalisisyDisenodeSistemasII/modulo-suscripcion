@@ -11,6 +11,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CompanyClient extends Client {
+
 	private String nit;
 
 	@SerializedName(value = "company_name")

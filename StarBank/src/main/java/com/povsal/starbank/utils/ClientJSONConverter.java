@@ -1,36 +1,37 @@
 package com.povsal.starbank.utils;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
+import com.povsal.starbank.model.client.Client;
+import com.povsal.starbank.model.client.CompanyClient;
+import com.povsal.starbank.model.client.NaturalClient;
+import com.povsal.starbank.utils.converter.JSONConverter;
+import org.springframework.stereotype.Component;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
-import com.google.gson.*;
-import com.google.gson.reflect.TypeToken;
-import org.springframework.stereotype.Service;
-
-import com.povsal.starbank.model.client.Client;
-import com.povsal.starbank.model.client.CompanyClient;
-import com.povsal.starbank.model.client.NaturalClient;
-import com.povsal.starbank.utils.converter.IJSONConverter;
-
-@Service
-public class JSONConverter implements IJSONConverter {
+@Component
+public class ClientJSONConverter implements JSONConverter<String, Client> {
 
 	private static final String DB_PATH_NATURAL = "src\\main\\resources\\static\\natural_clients.json";
 	private static final String DB_PATH_COMPANY = "src\\main\\resources\\static\\company_clients.json";
-	
-	public Map<String, Client> getAllClients() throws IOException {
+
+	@Override
+	public Map<String, Client> getAll() throws IOException {
 		Map<String, Client> clients = new HashMap<>();
 		clients.putAll(convertClientsFromJSON(true, null));
 		clients.putAll(convertClientsFromJSON(false, null));
 		return clients;
 	}
-	
-	@Override
-	public void saveInJSONDb(Client client) throws IOException {
+
+	public void convert(Client client) throws IOException {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		String filePath = "";
 		if(client instanceof NaturalClient) {
@@ -45,14 +46,18 @@ public class JSONConverter implements IJSONConverter {
 				if(clientsMap == null) {
 					throw new IOException("Error parsing file");
 				}
-				clientsMap.put(client.getIdentification(), client);
+				String identification = client.getIdentification();
+				client.setIdentification(null);
+				clientsMap.put(identification, client);
 				gson.toJson(clientsMap, file);
 			} else if(client instanceof CompanyClient) {
 				Map<String, Client> clientsMap = convertClientsFromJSON(false, fileContent);
 				if(clientsMap == null) {
 					throw new IOException("Error parsing file");
 				}
-				clientsMap.put(((CompanyClient) client).getNit(), client);
+				String nit = ((CompanyClient) client).getNit();
+				((CompanyClient) client).setNit(null);
+				clientsMap.put(nit, client);
 				gson.toJson(clientsMap, file);
 			}
 		} catch (IOException e) {

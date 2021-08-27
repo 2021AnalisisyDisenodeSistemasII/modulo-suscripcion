@@ -3,7 +3,7 @@ package com.povsal.starbank.controller;
 import com.povsal.starbank.model.client.Client;
 import com.povsal.starbank.model.client.CompanyClient;
 import com.povsal.starbank.model.client.NaturalClient;
-import com.povsal.starbank.service.ClientService;
+import com.povsal.starbank.service.implementation.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,7 +22,7 @@ import java.util.Map;
 public class ClientController {
 	
 	@Autowired
-	ClientService clientService;
+	private ClientService clientService;
 	
 	@GetMapping("/all")
 	public ResponseEntity<Map<String, Client>> getAllPersons() {
