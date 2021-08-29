@@ -15,7 +15,7 @@ import java.io.IOException;
 @CrossOrigin(origins = "'http://127.0.0.1:5500")
 @Controller
 @RequestMapping(path = "/persons")
-public class SuscriptionController {
+public class SubscriptionController {
 
     @Autowired
     private AccountService service;
