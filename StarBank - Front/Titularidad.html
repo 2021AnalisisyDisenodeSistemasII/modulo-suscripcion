@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>StarBank - Inscripción</title>
-		<!--<script type="text/javascript" src="/assets/js/clients-submit.js"></script>-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<!--<link rel="stylesheet" type="text/css" href="/assets/css/style.css">-->
-		<link rel="stylesheet" href="style.css">
-		<link rel="icon" href="/assets/icon.png" type="image" sizes="16x16">
-	</head>
+
+<head>
+	<meta charset="UTF-8">
+	<title>StarBank - Inscripción</title>
+	<script type="text/javascript" src="js/accounts-validation.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="/assets/icon.png" type="image" sizes="16x16">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
 
 <body>
 	<header>
@@ -18,10 +22,10 @@
 	<div id="inscripcion">
 		<h2>Validar titularidad:</h2><br>
 		<h4>Documento identidad: <br><input type="text" name="nroId" id="nroId"></h4>
-		<h4>ID de cuenta: <br><input type="text" name="nombre" id="nombre"></h4>
+		<h4>ID de cuenta: <br><input type="text" name="cuentaId" id="cuentaId"></h4>
 
 		<div id="boton2">
-			<button type="button" onclick="saveClient();">Validar</button>
+			<button type="button" onclick="validateAccount();">Validar</button>
 		</div>
 	</div>
 </body>
