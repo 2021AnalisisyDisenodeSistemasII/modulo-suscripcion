@@ -1,6 +1,7 @@
 package com.povsal.starbank.utils;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.povsal.starbank.model.account.Account;
 import com.povsal.starbank.utils.converter.JSONConverter;
@@ -28,7 +29,7 @@ public class AccountJSONConverter implements JSONConverter<String, Account> {
     }
 
     private Map<String, Account> convertFromJson(boolean savings) throws IOException {
-        Gson gson = new Gson();
+        Gson gson = new GsonBuilder().setDateFormat("dd-MM-yyyy").create();
         Type typeOfMap = new TypeToken<Map<String, Account>>() { }.getType();
         String fileContent = new String(Files.readAllBytes(Paths.get(savings ? DB_PATH_SAVINGS : DB_PATH_CURRENT)));
         return gson.fromJson(fileContent, typeOfMap);

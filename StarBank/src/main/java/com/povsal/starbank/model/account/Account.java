@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDate;
+import java.util.Date;
 import java.util.List;
 
 @Getter
@@ -19,7 +19,7 @@ public class Account {
     private String accountId;
 
     @SerializedName(value = "creation_date")
-    private LocalDate creationDate;
+    private Date creationDate;
 
     @SerializedName(value = "client_id")
     private String clientId;
