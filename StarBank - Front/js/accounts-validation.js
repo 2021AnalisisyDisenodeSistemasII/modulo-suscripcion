@@ -20,10 +20,10 @@ function validate(clientId, accountId) {
         success: function (belongs) {
             if (belongs) {
                 Swal.fire('Correcto', 'La cuenta pertenece al documento ingresado', 'success')
+                cleanFields();
             } else {
                 Swal.fire('Error', 'La cuenta pertenece no al documento ingresado', 'error')
             }
-            cleanFields();
         },
         error: function (xhr) {
             Swal.fire('Error', 'Ha ocurrido un problema', 'error')
