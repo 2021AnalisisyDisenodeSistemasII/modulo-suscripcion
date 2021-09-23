@@ -797,5 +797,33 @@
     "sucursal_id": "1",
     "isActive": false,
     "balance": 0.0
+  },
+  "G1PkChDWY9fGD2Yj": {
+    "creation_date": "23-09-2021",
+    "client_id": "13762575",
+    "sucursal_id": "3",
+    "isActive": false,
+    "balance": 0.0
+  },
+  "xfo4Hu6tYRBHJYxO": {
+    "creation_date": "23-09-2021",
+    "client_id": "13762575",
+    "sucursal_id": "3",
+    "isActive": false,
+    "balance": 0.0
+  },
+  "xvRfR0UTq95YqDDp": {
+    "creation_date": "23-09-2021",
+    "client_id": "13762575",
+    "sucursal_id": "3",
+    "isActive": false,
+    "balance": 0.0
+  },
+  "a5qTvSe5ZbKAYdJc": {
+    "creation_date": "23-09-2021",
+    "client_id": "13762575",
+    "sucursal_id": "3",
+    "isActive": false,
+    "balance": 0.0
   }
 }

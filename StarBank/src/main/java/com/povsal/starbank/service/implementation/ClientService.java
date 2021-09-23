@@ -47,4 +47,8 @@ public class ClientService implements IClientService {
     public String getAllClientsAsString() throws IOException {
 		return converter.getAllClientsAsString();
     }
+
+	public void updateClientAccounts(String clientId, String accountId) throws IOException {
+		converter.updateClientAccounts(clientId, accountId);
+	}
 }

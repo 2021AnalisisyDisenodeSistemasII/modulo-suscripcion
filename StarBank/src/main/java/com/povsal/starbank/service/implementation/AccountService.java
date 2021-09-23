@@ -18,6 +18,9 @@ public class AccountService implements IAccountService {
     @Autowired
     private ClientService clientService;
 
+    @Autowired
+    private SucursalService sucursalService;
+
     @Override
     public boolean accountBelongsToClient(String clientId, String accountId) throws IOException {
         Map<String, Account> accounts = converter.getAll();
@@ -27,19 +30,20 @@ public class AccountService implements IAccountService {
     }
 
     @Override
-    public boolean accountAlreadyExists(String accountId) throws IOException {
-        Map<String, Account> accounts = converter.getAll();
-        return accounts.containsKey(accountId);
-    }
-
-    @Override
     public void createAccount(Account account) throws IOException {
-        if (!clientService.getAllClients().containsKey(account.getClientId())) {
+        String clientId = account.getClientId();
+        String accountId = account.getAccountId();
+
+        if (!clientService.getAllClients().containsKey(clientId)) {
             throw new IOException("Cliente no existe");
         }
-        if (converter.getAll().containsKey(account.getAccountId())) {
+        if (converter.getAll().containsKey(accountId)) {
             throw new IOException("Cuenta ya existe");
         }
+        if (!sucursalService.sucursalExists(account.getSucursalId())) {
+            throw new IOException("Sucursal no existe");
+        }
         converter.saveAccount(account);
+        clientService.updateClientAccounts(clientId, accountId);
     }
 }

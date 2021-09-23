@@ -929,5 +929,19 @@
     "sucursal_id": "3",
     "isActive": false,
     "balance": 0.0
+  },
+  "NjKySqEtL1LzCZyx": {
+    "creation_date": "23-09-2021",
+    "client_id": "88148511-0",
+    "sucursal_id": "2",
+    "isActive": false,
+    "balance": 0.0
+  },
+  "VCgdVnGABTCnrE4w": {
+    "creation_date": "23-09-2021",
+    "client_id": "88148511-0",
+    "sucursal_id": "2",
+    "isActive": false,
+    "balance": 0.0
   }
 }

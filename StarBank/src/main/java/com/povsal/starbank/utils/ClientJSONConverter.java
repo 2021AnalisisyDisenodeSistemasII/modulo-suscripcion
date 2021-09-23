@@ -15,6 +15,7 @@ import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Component
@@ -87,5 +88,20 @@ public class ClientJSONConverter implements JSONConverter<String, Client> {
 		clients.putAll(convertClientsFromJSON(true, null));
 		clients.putAll(convertClientsFromJSON(false, null));
 		return gson.toJson(clients);
+	}
+
+	public void updateClientAccounts(String clientId, String accountId) throws IOException {
+		Map<String, Client> clients = getAll();
+		Client client = clients.get(clientId);
+		List<String> accounts = client.getAccounts();
+		accounts.add(accountId);
+		client.setAccounts(accounts);
+		if(client instanceof NaturalClient) {
+			client.setIdentification(clientId);
+		}
+		if(client instanceof CompanyClient) {
+			((CompanyClient) client).setNit(clientId);
+		}
+		convert(client);
 	}
 }
