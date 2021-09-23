@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<title>StarBank - Creación de cuenta</title>
-	<script type="text/javascript" src="/js/clients-submit.js"></script>
+	<script type="text/javascript" src="/js/account-creation.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<link rel="stylesheet" href="style.css">
@@ -33,14 +34,14 @@
 		</div><br>
 		<h3 id="padText">Sucursal de la cuenta:</h3>
 		<h4>Sucursal: <br><input type="text" name="sucursal" id="sucursal"></h4>
-		<h4 id="padText">Tipo de cuenta:</h4>	
-		<select>
-			<option selected>Seleccione</option>
-			<option>Ahorros</option>
-			<option>Corriente</option>
-		  </select>
+		<h4 id="padText">Tipo de cuenta:</h4>
+		<select id="tipo">
+			<option value="" selected>Seleccione</option>
+			<option value="SAVINGS">Ahorros</option>
+			<option value="CURRENT">Corriente</option>
+		</select>
 		<div id="boton">
-			<button type="button" onclick="saveClient();">Enviar</button>
+			<button type="button" onclick="createAccount();">Enviar</button>
 		</div>
 
 	</div>
