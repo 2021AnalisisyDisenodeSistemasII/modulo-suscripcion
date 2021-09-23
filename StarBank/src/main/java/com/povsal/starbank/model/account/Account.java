@@ -1,10 +1,7 @@
 package com.povsal.starbank.model.account;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.Date;
 import java.util.List;
@@ -13,6 +10,7 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class Account {
 
     @SerializedName(value = "account_id")
@@ -32,4 +30,6 @@ public class Account {
     private double balance;
 
     private List<String> transactions;
+
+    private String type;
 }

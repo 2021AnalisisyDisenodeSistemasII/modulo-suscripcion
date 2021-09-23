@@ -1,794 +1,801 @@
 {
   "210e5af017b37bf1": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "77358026-0",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "54a861fa18540e0a": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "77358026-0",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "047a559d50d61eff": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "21930880-0",
-    "balance": 0,
     "sucursal_id": "9",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "442ba14f27fe0ccb": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "20474747-3",
-    "balance": 0,
     "sucursal_id": "1",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "5b8c4f9eac8f5143": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "77358026-0",
-    "balance": 0,
     "sucursal_id": "4",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "bb8469939b7edf5b": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "52306746",
-    "balance": 0,
     "sucursal_id": "8",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "561b21853bd7df44": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "50719469",
-    "balance": 0,
     "sucursal_id": "4",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "d935ca7a4d29ae1e": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "35559562-1",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "2f9292926738391d": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "52306746",
-    "balance": 0,
     "sucursal_id": "4",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "122a9223b49db989": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "92493215-0",
-    "balance": 0,
     "sucursal_id": "3",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "511033beec1e27bb": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "28032072",
-    "balance": 0,
     "sucursal_id": "7",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "b27c7bbf70b04e9b": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "19351004",
-    "balance": 0,
     "sucursal_id": "0",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "5c9816048e0b5bfa": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "96974161-9",
-    "balance": 0,
     "sucursal_id": "0",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "fe9e67268e0ce843": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "28314300",
-    "balance": 0,
     "sucursal_id": "9",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "e06a4ac033921600": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "98370920",
-    "balance": 0,
     "sucursal_id": "3",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "c2c14c05c1b079bc": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "39525805",
-    "balance": 0,
     "sucursal_id": "9",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "8a599c8fc1a1de1f": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "13626209-4",
-    "balance": 0,
     "sucursal_id": "6",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "77f55ff805a88958": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "78966418-0",
-    "balance": 0,
     "sucursal_id": "0",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "7fd4174acd5ae1f3": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "52306746",
-    "balance": 0,
     "sucursal_id": "8",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "00c58ae135c46ee3": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "96974161-9",
-    "balance": 0,
     "sucursal_id": "0",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "2b2a47884e665b4c": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "25033578",
-    "balance": 0,
     "sucursal_id": "3",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "3a1b4d4e492b7e79": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "85301551",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "0d430cb0e32c6a99": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "75368195-0",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "17fd7acea7130dfa": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "61249466",
-    "balance": 0,
     "sucursal_id": "9",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "ba1c2e902de2afcc": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "15615776",
-    "balance": 0,
     "sucursal_id": "7",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "49ac1f039a97e088": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "89623431-0",
-    "balance": 0,
     "sucursal_id": "2",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "fe910f953aecb0ca": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "95317002-0",
-    "balance": 0,
     "sucursal_id": "2",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "cb4e467007c35f88": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "60499258-2",
-    "balance": 0,
     "sucursal_id": "8",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "9df6f0d8b8d0538d": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "19351004",
-    "balance": 0,
     "sucursal_id": "3",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "84faf5b909edd8d8": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "33527982",
-    "balance": 0,
     "sucursal_id": "6",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "9745a39eedb50a54": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "36639888-9",
-    "balance": 0,
     "sucursal_id": "1",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "da535cd0a618bc3f": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "39525805",
-    "balance": 0,
     "sucursal_id": "6",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "e04757c6d79c4cbc": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "76037623-8",
-    "balance": 0,
     "sucursal_id": "9",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "c6db74aabf5bec1c": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "11485730",
-    "balance": 0,
     "sucursal_id": "9",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "b0f042010c0f4c51": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "33527982",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "a19ee792c78f47ae": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "48819975",
-    "balance": 0,
     "sucursal_id": "8",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "8813f133f8de9a7b": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "62984534-2",
-    "balance": 0,
     "sucursal_id": "4",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "ec7b646ac701a7d6": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "11259159",
-    "balance": 0,
     "sucursal_id": "8",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "3dd70160b6b4e49e": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "92493215-0",
-    "balance": 0,
     "sucursal_id": "8",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "efaceda62210093b": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "96974161-9",
-    "balance": 0,
     "sucursal_id": "6",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "0ea07bd7315a610d": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "41780706-5",
-    "balance": 0,
     "sucursal_id": "0",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "362efa9538d43482": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "75368195-0",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "cac1c52b279641e0": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "80978607-8",
-    "balance": 0,
     "sucursal_id": "3",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "bc5531bdcfcea15f": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "88919645",
-    "balance": 0,
     "sucursal_id": "2",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "6c375b2c8da4bebc": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "48650051",
-    "balance": 0,
     "sucursal_id": "7",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "a2b26f0615b4da2a": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "78018577-2",
-    "balance": 0,
     "sucursal_id": "1",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "560280593f8d83b8": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "56756335-8",
-    "balance": 0,
     "sucursal_id": "2",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "7d09e0a03dabead5": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "91060254-6",
-    "balance": 0,
     "sucursal_id": "6",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "1ece54fcfebe2931": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "41295069",
-    "balance": 0,
     "sucursal_id": "4",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "4a50fd084f7d9027": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "34255597-6",
-    "balance": 0,
     "sucursal_id": "8",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "d0526e354dff9ddf": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "85301551",
-    "balance": 0,
     "sucursal_id": "4",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "19df60dd46c6a1ac": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "24900793",
-    "balance": 0,
     "sucursal_id": "3",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "83db0886c1d1dbc8": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "92493215-0",
-    "balance": 0,
     "sucursal_id": "0",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "c57d0f1749a601cc": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "41780706-5",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "0520377a9be1c27e": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "52306746",
-    "balance": 0,
     "sucursal_id": "6",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "38bb2eb4d779f2f0": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "83683305-8",
-    "balance": 0,
     "sucursal_id": "1",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "05da24b2836f09a7": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "78966418-0",
-    "balance": 0,
     "sucursal_id": "1",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "a481df60e6fbc26e": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "60499258-2",
-    "balance": 0,
     "sucursal_id": "6",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "66d886b8db5ebfea": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "77358026-0",
-    "balance": 0,
     "sucursal_id": "8",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "e884ae297de78b08": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "62620440-9",
-    "balance": 0,
     "sucursal_id": "7",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "a093520c639e1079": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "10249722",
-    "balance": 0,
     "sucursal_id": "9",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "430dfc55f0ab44f0": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "78966418-0",
-    "balance": 0,
     "sucursal_id": "7",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "860c2a7a3eefc638": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "83683305-8",
-    "balance": 0,
     "sucursal_id": "2",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "bd36f8eb9e1f3e8c": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "19351004",
-    "balance": 0,
     "sucursal_id": "6",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "c9dadb79d48ffe9e": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "38237476-3",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "92de30a9f33c2d8a": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "13762575",
-    "balance": 0,
     "sucursal_id": "2",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "d6f9b918040962d4": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "85301551",
-    "balance": 0,
     "sucursal_id": "0",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "04083530966b5ad5": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "48322820-1",
-    "balance": 0,
     "sucursal_id": "0",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "15c1740698da56de": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "37524008",
-    "balance": 0,
     "sucursal_id": "6",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "d27e0b6b16490ba2": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "73188956",
-    "balance": 0,
     "sucursal_id": "8",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "eba4c9ae1a5a4e4a": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "17216329",
-    "balance": 0,
     "sucursal_id": "7",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "3f44fd3116a53600": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "21812626-4",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "7f3abb7e6e4e709b": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "87035588-7",
-    "balance": 0,
     "sucursal_id": "0",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "03df320d5d51c3a8": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "60499258-2",
-    "balance": 0,
     "sucursal_id": "9",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "3b7a8ab0a0d726c5": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "44745070-0",
-    "balance": 0,
     "sucursal_id": "3",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "513e8c82cda681d0": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "62620440-9",
-    "balance": 0,
     "sucursal_id": "9",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "e379c713a067c3b1": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "88919645",
-    "balance": 0,
     "sucursal_id": "1",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "8cb25cfd9dea7c07": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "33260689-0",
-    "balance": 0,
     "sucursal_id": "9",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "e703da886a968a96": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "21930880-0",
-    "balance": 0,
     "sucursal_id": "3",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "e87445a30b5e03ce": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "97205187",
-    "balance": 0,
     "sucursal_id": "9",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "ff5fe41113e0197e": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "19351004",
-    "balance": 0,
     "sucursal_id": "3",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "42f24c8104bc6b31": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "52605406",
-    "balance": 0,
     "sucursal_id": "6",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "12a0614b65a4550c": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "25033578",
-    "balance": 0,
     "sucursal_id": "1",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "90d52344ad5ace45": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "98370920",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "b09942cc83a4e716": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "82005359",
-    "balance": 0,
     "sucursal_id": "1",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "c3b9072c078e23cf": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "48130640-7",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "ab83fa4a25808c21": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "91710296",
-    "balance": 0,
     "sucursal_id": "2",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "c3782814f05bb39b": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "37107416-9",
-    "balance": 0,
     "sucursal_id": "1",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "90dc0dfa8b869469": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "35349353-2",
-    "balance": 0,
     "sucursal_id": "2",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "879b0b234a29075a": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "98160535-9",
-    "balance": 0,
     "sucursal_id": "0",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "60ab0d2a453d911c": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "75368195-0",
-    "balance": 0,
     "sucursal_id": "7",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "5488c8f06a08802f": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "24147692-0",
-    "balance": 0,
     "sucursal_id": "3",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "a6f789189f383bea": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "48322820-1",
-    "balance": 0,
     "sucursal_id": "0",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "1aff079e222710c8": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "15615776",
-    "balance": 0,
     "sucursal_id": "3",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "12f279b399f6d23e": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "50552297-8",
-    "balance": 0,
     "sucursal_id": "5",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "3ea39eb2dab01f01": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "21930880-0",
-    "balance": 0,
     "sucursal_id": "4",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "995c6051306524ac": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "29705479-7",
-    "balance": 0,
     "sucursal_id": "4",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "2f06033d1176be8a": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "21845197",
-    "balance": 0,
     "sucursal_id": "7",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
   },
   "7db5e3b8c1e84a1f": {
-    "isActive": false,
+    "creation_date": "04-08-2021",
     "client_id": "98160535-9",
-    "balance": 0,
     "sucursal_id": "6",
-    "transactions": [],
-    "creation_date": "04-08-2021"
+    "isActive": false,
+    "balance": 0.0,
+    "transactions": []
+  },
+  "rPJL55xHxxw3wSEV": {
+    "creation_date": "23-09-2021",
+    "client_id": "13762575",
+    "sucursal_id": "1",
+    "isActive": false,
+    "balance": 0.0
   }
 }

@@ -15,11 +15,31 @@ public class AccountService implements IAccountService {
     @Autowired
     private AccountJSONConverter converter;
 
+    @Autowired
+    private ClientService clientService;
+
     @Override
     public boolean accountBelongsToClient(String clientId, String accountId) throws IOException {
         Map<String, Account> accounts = converter.getAll();
         if(!accounts.containsKey(accountId)) return false;
         Account account = accounts.get(accountId);
         return account.getClientId().equalsIgnoreCase(clientId);
+    }
+
+    @Override
+    public boolean accountAlreadyExists(String accountId) throws IOException {
+        Map<String, Account> accounts = converter.getAll();
+        return accounts.containsKey(accountId);
+    }
+
+    @Override
+    public void createAccount(Account account) throws IOException {
+        if (!clientService.getAllClients().containsKey(account.getClientId())) {
+            throw new IOException("Cliente no existe");
+        }
+        if (converter.getAll().containsKey(account.getAccountId())) {
+            throw new IOException("Cuenta ya existe");
+        }
+        converter.saveAccount(account);
     }
 }

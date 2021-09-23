@@ -22,6 +22,7 @@ public class ClientJSONConverter implements JSONConverter<String, Client> {
 
 	private static final String DB_PATH_NATURAL = "src\\main\\resources\\static\\natural_clients.json";
 	private static final String DB_PATH_COMPANY = "src\\main\\resources\\static\\company_clients.json";
+	private static final String PARSING_ERROR = "Error parsing file";
 
 	@Override
 	public Map<String, Client> getAll() throws IOException {
@@ -44,7 +45,7 @@ public class ClientJSONConverter implements JSONConverter<String, Client> {
 			if(client instanceof NaturalClient) {
 				Map<String, Client> clientsMap = convertClientsFromJSON(true, fileContent);
 				if(clientsMap == null) {
-					throw new IOException("Error parsing file");
+					throw new IOException(PARSING_ERROR);
 				}
 				String identification = client.getIdentification();
 				client.setIdentification(null);
@@ -53,7 +54,7 @@ public class ClientJSONConverter implements JSONConverter<String, Client> {
 			} else if(client instanceof CompanyClient) {
 				Map<String, Client> clientsMap = convertClientsFromJSON(false, fileContent);
 				if(clientsMap == null) {
-					throw new IOException("Error parsing file");
+					throw new IOException(PARSING_ERROR);
 				}
 				String nit = ((CompanyClient) client).getNit();
 				((CompanyClient) client).setNit(null);
@@ -61,7 +62,7 @@ public class ClientJSONConverter implements JSONConverter<String, Client> {
 				gson.toJson(clientsMap, file);
 			}
 		} catch (IOException e) {
-			System.err.println("Error parsing file");
+			System.err.println(PARSING_ERROR);
 		}
 	}
 
